@@ -1,53 +1,58 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: " en-US " }}">
 
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://kit.fontawesome.com/bfe71a2e0c.js" crossorigin="anonymous"></script>
+    {% seo %} {% include head-custom.html %}
+</head>
 
-{% seo %}
-    {% include head-custom.html %}
-  </head>
-
-  <body>
+<body>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
- 
-          <div class="topnav">
-            <a href="/contacts.html">Contact</a>
-            <a href="/projects.html">Projects</a>
-            <a href="/Resume_Dhruv_Iyer.pdf">CV</a>
-          </div>
 
-          <p></p>
-          <p></p>
+            <div class="topnav">
+                <a href="/contacts.html">Contact</a>
+                <a href="/projects.html">Projects</a>
+                <a href="/Resume_Dhruv_Iyer.pdf">CV</a>
+            </div>
 
-          <h1 id="project_title" style="text-align: center;"><a href="index.html" style="all: unset;">{{ site.title | default: site.github.repository_name }}</a></h1>
-          <h2 id="project_tagline" style="text-align: center;"><a href="index.html" style="all: unset;"> {{site.description | default: site.github.project_tagline }}</a></h2>
+            <p></p>
+            <p></p>
 
-          {% if site.show_downloads %}
-          {% endif %}
+            <h1 id="project_title" style="text-align: center;"><a href="index.html" style="all: unset;">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <h2 id="project_tagline" style="text-align: center;"><a href="index.html" style="all: unset;"> {{site.description | default: site.github.project_tagline }}</a></h2>
+
+            {% if site.show_downloads %} {% endif %}
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        {{ content }}
-      </section>
+        <section id="main_content" class="inner">
+            {{ content }}
+        </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-      </footer>
+        <footer class="inner">
+            {% if site.github.is_project_page %}
+            <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+            {% endif %}
+            <div id="lab_social_icon_footer">
+                <div class="text-center center-block">
+                    <a href="mailto:dhruviyer17@g.ecc.u-tokyo.ac.jp"><i id="social-em" class="fa fa-envelope fa-2x social"></i></a>
+                    <a href="https://github.com/dhruv1711"><i id="social-git" class="fa fa-github fa-2x social"></i></a>
+                </div>
+            </div>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
