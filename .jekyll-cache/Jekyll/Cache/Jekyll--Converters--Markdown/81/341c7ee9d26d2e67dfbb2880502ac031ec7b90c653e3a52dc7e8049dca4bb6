@@ -1,0 +1,36 @@
+I"<h1 id="-welcome-to-my-homepage-"><center> Welcome to my homepage! </center></h1>
+
+<p><br /></p>
+
+<p style="text-align:center;" class="fade-in-image"><img src="/assets/images/photo1.jpg" alt="drawing" width="200" /></p>
+
+<p><br /></p>
+
+<h2 id="profile">Profile</h2>
+
+<blockquote>
+  <p>“Learn what the rest of the world is like. The variety is worthwhile.” <br />
+<em> - Richard P. Feynman, Surely You’re Joking, Mr. Feynman! </em></p>
+</blockquote>
+
+<p>Hello and こんにちは! I am currently a 4th year undergraduate student in the Department of Mechano-informatics at the University of Tokyo.</p>
+
+<hr />
+
+<h4 id="research-interests">Research Interests</h4>
+
+<ul>
+  <li>Interactive VR and AR systems</li>
+  <li>Applications of HCI: using Interactive Reinforcement Learning</li>
+  <li>Improving user experience in VR</li>
+</ul>
+
+<hr />
+
+<h4 id="hobbies">Hobbies</h4>
+<ul>
+  <li>Listening to contemporary jazz and carnatic music</li>
+  <li>Playing jazz drums and mridangam</li>
+  <li>Reading about international finance and politics</li>
+</ul>
+:ET

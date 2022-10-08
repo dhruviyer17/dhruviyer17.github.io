@@ -265,4 +265,23 @@ Small Device Styles
 
 #lab_social_icon_footer #social-git:hover { color: #f39c12; }
 
+#lab_social_icon_footer #social-linkedin:hover { color: #f39c12; }
+
+.fade-in-image { animation: fadeIn 3s; -webkit-animation: fadeIn 3s; -moz-animation: fadeIn 3s; -o-animation: fadeIn 3s; -ms-animation: fadeIn 3s; }
+
+@keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+@-moz-keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+@-webkit-keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+@-o-keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+@-ms-keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
 /*# sourceMappingURL=style.css.map */

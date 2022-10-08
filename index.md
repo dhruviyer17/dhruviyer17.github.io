@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-<p style="text-align:center;"><img src="/assets/images/photo1.jpg" alt="drawing" width="200"/></p>
+# <center> Welcome to my homepage! </center>
+
+<br>
+
+<p style="text-align:center;" class="fade-in-image"><img src="/assets/images/photo1.jpg" alt="drawing" width="200"/></p>
 
 <br>
 
